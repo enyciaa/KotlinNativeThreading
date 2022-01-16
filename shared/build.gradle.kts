@@ -22,6 +22,7 @@ kotlin {
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2-native-mt") {
                     isForce = true
                 }
+                implementation("co.touchlab:stately-common:1.2.0")
             }
         }
         val commonTest by getting {
